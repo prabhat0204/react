@@ -1,12 +1,16 @@
-import React from 'react'
+package src;
+
+import React from 'react';
+import './App.css';
+import Greeting from './Greeting.js';
 
 function App() {
   return (
-    <div style={{ padding: '20px', fontFamily: 'Arial' }}>
-      <h1>Hello from React! 👋</h1>
-      <p>This is a sample React component.</p>
+    <div className="app">
+      <h1>Welcome to the application</h1>
+      <Greeting />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
